@@ -5,7 +5,7 @@ def department_mapper(data: dict):
     return Deparment(       
         id=data['id'],
         name=data['name'],
-        description=data['descripton'],
+        description=data['description'],
         municipalities=data['municipalities'],
         surface=data['surface'],
         population=data['population'],
